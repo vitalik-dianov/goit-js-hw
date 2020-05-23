@@ -6,8 +6,9 @@ password = prompt("Введите пароль");
 if (password === null) {
   message = "Отменено пользователем!";
   alert(message);
-} else {
-  if (password != ADMIN_PASSWORD) {
+} 
+else if 
+   (password != ADMIN_PASSWORD) {
     message = "Неверный пароль!";
     alert(message);
   } else {
@@ -16,4 +17,4 @@ if (password === null) {
       alert(message);
     }
   }
-}
+
